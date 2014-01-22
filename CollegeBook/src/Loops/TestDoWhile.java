@@ -19,6 +19,7 @@ public class TestDoWhile {
 			} while (data != 0);
 
             //This is the sum and final print for the program
+			//This is a comment from JARVIS to test end of line and git
 			System.out.println("The sum is " + sum);
 		}
 	}
