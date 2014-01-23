@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TestDoWhile {
+public class  TestDoWhile {
 	/**Main method */
 	public static void main (String [] args) {
 		int data;
