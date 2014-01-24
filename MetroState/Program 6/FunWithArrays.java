@@ -36,7 +36,7 @@ public class FunWithArrays {
 		
 		printArray(list);
 		
-		public static void printArray(byte[] array) {
+		public static void printArray (byte[] array) {
 			System.out.print("in array here    ");
 			  for (int i = 0; i < array.length; i++) {
 			    System.out.print(array[i] + " ");
