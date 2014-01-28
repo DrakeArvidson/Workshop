@@ -10,5 +10,12 @@ public class Test {
         //from blarsondesktop
 		//from JARVIS
 
+        //we are creating a var named beerNum
+        int beerNum = 99;
+        //we created a String named "word"
+        String word = "bottles";
+
+        System.out.println(beerNum + " "+ word + " of beer on the wall, " + beerNum + " " + word + " of beer.");
+
     }
 }
