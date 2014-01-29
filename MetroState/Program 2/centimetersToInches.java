@@ -1,5 +1,6 @@
 // Assignment 5 - Program to learn methods by making a tip calculator
 // Programmer: Benjamin Crist
+//TODO: make this a non-Jpane program and see if repackaging jar still works
 
 //importing swing
 import javax.swing.JOptionPane;
@@ -23,8 +24,8 @@ public class centimetersToInches {
 		int measurementRemainingInch = roundedInch % 12;
 		
 		//outputting the inches and feet to the user
-		JOptionPane.showMessageDialog(null, measurementCent + " centimenters equals "  + 
-				measurementFeet + " feet " + measurementRemainingInch + " inches");
-		
-	}
+		JOptionPane.showMessageDialog(null, measurementCent + " centimenters equals " + measurementFeet + " feet " + measurementRemainingInch + " inches");
+        //System.out.println(null, measurementCent + " centimenters equals " + measurementFeet + " feet " + measurementRemainingInch + " inches");
+
+    }
 }
