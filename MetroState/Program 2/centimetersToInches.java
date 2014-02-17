@@ -1,5 +1,5 @@
 // Assignment 5 - Program to learn methods by making a tip calculator
-// Programmer: Benjamin Crist
+ // Programmer: Benjamin Crist
 //TODO: make this a non-Jpane program and see if repackaging jar still works
 
 //importing swing
