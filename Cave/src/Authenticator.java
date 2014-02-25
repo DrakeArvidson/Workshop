@@ -1,5 +1,7 @@
 /**
  * Created by blarson on 2/25/14.
+ *
+ * From Dummies book
  */
 import javax.swing.JOptionPane;
 

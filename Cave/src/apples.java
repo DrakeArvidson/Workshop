@@ -6,16 +6,22 @@ import java.util.Scanner;
 public class apples {
     public static void main (String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner keyboard = new Scanner(System.in);
 
         tuna tunaObject = new tuna();
 
-        System.out.println("Enter your name here:");
-        String name = input.nextLine();
+        int x = 1;
 
-        tunaObject.simpleMessage(name);
+        while (x !=0 ) {
 
-        //method call from previous coding
-        tunaObject.simpleMessage();
+            System.out.print("Press 0 to exit, any other key to continue: ");
+            x = keyboard.nextInt();
+            keyboard.nextLine(); //needs to be called so the next Scanner nextLine call works
+
+            System.out.println("Enter name of first gf here:");
+            String temp = keyboard.nextLine();
+            tunaObject.setName(temp);
+            tunaObject.saying();
+        }
     }
 }
