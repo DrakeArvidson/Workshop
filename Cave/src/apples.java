@@ -6,22 +6,20 @@ import java.util.Scanner;
 public class apples {
     public static void main (String[] args) {
 
-        Scanner keyboard = new Scanner(System.in);
+        int age = 60;
 
-        tuna tunaObject = new tuna();
+        if (age < 50){
+            System.out.println("You are young");
+        }
+        else {
+            System.out.println("You are old");
 
-        int x = 1;
-
-        while (x !=0 ) {
-
-            System.out.print("Press 0 to exit, any other key to continue: ");
-            x = keyboard.nextInt();
-            keyboard.nextLine(); //needs to be called so the next Scanner nextLine call works
-
-            System.out.println("Enter name of first gf here:");
-            String temp = keyboard.nextLine();
-            tunaObject.setName(temp);
-            tunaObject.saying();
+            if (age > 75){
+                System.out.println("You are REALLY old!");
+            }
+            else {
+                System.out.println("Don't worry, you aren't really that old");
+            }
         }
     }
 }
