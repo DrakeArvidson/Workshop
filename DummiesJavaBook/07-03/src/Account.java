@@ -11,5 +11,6 @@ public class Account {
         out.print(address);
         out.print(") has $");
         out.print(balance);
+        out.println("");
     }
 }
