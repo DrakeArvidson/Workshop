@@ -6,11 +6,19 @@ import java.util.Scanner;
 
 class apples {
     public static void main (String[] args) {
-        for(int counter = 1; counter <= 10; counter++) {
-            System.out.println(counter);
+       // A = P(1+R)^n
 
+        double amount;
+        double principal = 10000;
+        double rate = .01;
 
+        for (int day = 1; day <=20 ; day++){
+            amount= principal*Math.pow(1+ rate, day);
+            System.out.println(day + "   " + amount);
         }
+
+
+
 
 
     }
