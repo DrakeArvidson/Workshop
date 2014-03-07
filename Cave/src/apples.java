@@ -6,19 +6,9 @@ import java.util.Scanner;
 
 class apples {
     public static void main (String[] args) {
-        Scanner input = new Scanner(System.in);
-        int total = 0;
-        int grade;
-        int average;
-        int counter = 0;
+        for(int counter = 1; counter <= 10; counter++) {
+            System.out.println(counter);
 
-        while (counter < 10) {
-            grade = input.nextInt();
-            total = total + grade;
-            counter++;
-
-
-        private String airplane;
 
         }
 

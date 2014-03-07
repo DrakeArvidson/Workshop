@@ -10,9 +10,9 @@ public class MockEvidenceEraser {
         Scanner keyboard = new Scanner(System.in);
         char answer;
 
-        do {
-            System.out.println("Delete evidence? (y/n) ");
-            answer = keyboard.NextChar;
-        }
+//        do {
+//            System.out.println("Delete evidence? (y/n) ");
+//            answer = keyboard.NextChar;
+//        }
     }
 }
