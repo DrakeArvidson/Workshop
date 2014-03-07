@@ -3,18 +3,17 @@
  */
 
 import java.util.Scanner;
+import java.util.Random;
 
 class apples {
     public static void main (String[] args) {
-       // A = P(1+R)^n
 
-        double amount;
-        double principal = 10000;
-        double rate = .01;
+        Random dice = new Random();
+        int number;
 
-        for (int day = 1; day <=20 ; day++){
-            amount= principal*Math.pow(1+ rate, day);
-            System.out.println(day + "   " + amount);
+        for (int counter = 1; counter <= 10; counter++) {
+            number = 1 + dice.nextInt(20);
+            System.out.println(number +  "  ");
         }
 
 
