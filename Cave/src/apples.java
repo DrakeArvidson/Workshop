@@ -16,6 +16,10 @@ class apples {
             grade = input.nextInt();
             total = total + grade;
             counter++;
+
+
+        private String airplane;
+
         }
 
 

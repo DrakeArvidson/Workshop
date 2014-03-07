@@ -2,7 +2,7 @@ import static java.lang.System.out;
 
 public class Account {
     String name;
-    String address;
+    private String address;
     double balance;
 
     public void display() {
