@@ -7,14 +7,11 @@ import java.util.Random;
 
 class apples {
     public static void main (String[] args) {
+        System.out.println("Index\tValue");
+        int bucky[]={32,12,18,54,2};
 
-        Random dice = new Random();
-        int number;
-
-        for (int counter = 1; counter <= 10; counter++) {
-            number = 1 + dice.nextInt(20);
-            System.out.println(number +  "  ");
-
+        for (int counter = 0; counter < bucky.length; counter++) {
+            System.out.println(counter + "\t\t" + bucky[counter]);
 
         }
 
