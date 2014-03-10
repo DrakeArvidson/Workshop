@@ -14,6 +14,8 @@ class apples {
         for (int counter = 1; counter <= 10; counter++) {
             number = 1 + dice.nextInt(20);
             System.out.println(number +  "  ");
+
+
         }
 
 
