@@ -2,16 +2,20 @@
  * Created by blarson on 2/14/14.
  */
 public class tuna {
-    private String girlName;
-    public void setName(String name){
-        girlName =name;
+
+    private int hour;
+    private int minute;
+    private int second;
+
+    public void setTime(int h, int m, int s) {
+        hour = ((h >= 0 && h < 24) ? h : 0);
+        minute = ((m >= 0 && m < 60) ? m : 0);
+        second = ((s >= 0 && s < 60) ? h : 0);
     }
-    public String getName(){
-        return girlName;
+
+    public String toMilitary() {
+       return String.format("%02d:%02d:%02d", hour, minute, second);
     }
-    public void saying(){
-        //System.out.printf("Your first gf was %s", getName());
-        System.out.println("Your first gf was " + getName());
-    }
+
 
 }
