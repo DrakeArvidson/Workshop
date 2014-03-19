@@ -1,29 +1,18 @@
 /**
  * Created by blarson on 2/14/14.
+ *
+ * This file keeps changing based on the New Boston Java tutorials on YouTube
  */
 
 class apples {
 
 
     public static void main (String[] args) {
-        int bucky [] = {3,4,5,6,7};
+        //first bracket for row, second for column
+        int firstarray [][] = {{8,9,10,11},{12,13,14,15}};
+        int secondarray [][]={{30,31,32},{43},{4,5,6}};
 
-        for (int y:bucky) {
-            System.out.println(y);
-        }
 
-        change(bucky);
 
-        for (int y:bucky) {
-            System.out.println(y);
-        }
     }
-
-    public static void change(int x[]) {
-        for (int counter = 0; counter < x.length ; counter++) {
-            x[counter] += 10;
-        }
-    }
-
-
 }
