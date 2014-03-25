@@ -6,6 +6,7 @@ public class Fly {
 
         while (counter < 1) {
             System.out.println("Let's go");
+
         }
     }
 }
