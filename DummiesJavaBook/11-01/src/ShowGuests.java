@@ -5,11 +5,11 @@ import java.io.IOException;
 
 class ShowGuests {
 
-    public static void main(String args[]) 
+    public static void main(String args[])
                                   throws IOException {
         int guests[] = new int[10];
-        Scanner diskScanner = 
-               new Scanner(new File("GuestList.txt"));
+        Scanner diskScanner =
+               new Scanner(new File("11-04/GuestList.txt"));
 
         for(int roomNum = 0; roomNum < 10; roomNum++) {
             guests[roomNum] = diskScanner.nextInt();
