@@ -3,6 +3,7 @@
  *
  * From Dummies book
  */
+ /*
 import javax.swing.JOptionPane;
 
 class Authenticator {
@@ -31,4 +32,4 @@ class Authenticator {
                     (null, "You're suspicious.");
         }
     }
-}
+}*/

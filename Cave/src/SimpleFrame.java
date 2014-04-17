@@ -1,7 +1,7 @@
 /**
  * Created by blarson on 3/21/14.
  */
-
+/*
 import java.awt.FlowLayout;
 import javax.swing.*;
 
@@ -16,4 +16,4 @@ public class SimpleFrame extends JFrame {
         setSize(300, 100);
         setVisible(true);
     }
-}
+}*/
