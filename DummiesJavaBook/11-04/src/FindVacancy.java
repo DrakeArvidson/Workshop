@@ -40,7 +40,7 @@ class FindVacancy {
             guests[roomNum] = keyboard.nextInt();
 
             PrintStream listOut =
-                new PrintStream("11-04/GuestList.txt");
+                new PrintStream("DummiesJavaBook/11-04/GuestList.txt");
 
             for (roomNum = 0; roomNum < 10; roomNum++) {
                 listOut.print(guests[roomNum]);
