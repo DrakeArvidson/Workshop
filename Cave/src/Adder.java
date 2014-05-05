@@ -21,6 +21,7 @@ public class Adder {
         Scanner keyboard = new Scanner(System.in);
 
         System.out.println("Welcome to the calculator");
+        System.out.println("Currently, we are setup for addition only");
         System.out.println("Please enter first number to add: ");
         int num1 = keyboard.nextInt();
         System.out.println("Please enter the second number to add: ");
