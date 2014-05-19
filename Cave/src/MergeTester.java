@@ -16,6 +16,7 @@ public class MergeTester {
      */
     public static void main(String[] args) {
         System.out.println("This is a test of initial version");
+        System.out.println("here's a new print statement I will checkin to playing branch");
     }
 
 }
