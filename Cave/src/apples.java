@@ -1,16 +1,36 @@
-/**
- * Created by blarson on 2/14/14.
- *
- * This file keeps changing based on the New Boston Java tutorials on YouTube
- */
+///**
+// * Created by blarson on 2/14/14.
+// *
+// * This file keeps changing based on the New Boston Java tutorials on YouTube
+// */
+//
+
+import java.util.Scanner;
 
 class apples {
-    public static void main (String[] args) {
-        tuna tunaObject = new tuna();
-        System.out.println(tunaObject.toMilitary());
-        System.out.println(tunaObject.toString());
-        tunaObject.setTime(13, 27, 6);
-        System.out.println(tunaObject.toMilitary());
-        System.out.println(tunaObject.toString());
+    public static void main(String args[]){
+
+          double tuna;
+        tuna = 5.8;
+
+        int x = 5    ;
+
+
+
+
+
+        System.out.println(x);
+
+
+//        Scanner keyboard = new Scanner(System.in);
+//
+//        System.out.println("Enter something already..");
+//        System.out.println(keyboard.nextLine());
+
+
+
+
     }
 }
+
+
