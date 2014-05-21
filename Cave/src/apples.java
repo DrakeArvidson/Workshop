@@ -16,8 +16,26 @@ class apples {
         fnum = bucky.nextDouble();
         System.out.println("Enter second num: ");
         snum = bucky.nextDouble();
-        answer = fnum + snum;
-        System.out.println("The sum is: " + answer);
+
+        System.out.println("Would you like to add or subtract?");
+        System.out.println("Enter 1 for add, 2 for subtract and press enter.");
+        int choice = bucky.nextInt();
+
+        if (choice == 1) {
+            answer = fnum + snum;
+            System.out.println("The sum is: " + answer);
+        }
+        else if (choice == 2) {
+            answer = fnum - snum;
+            System.out.println("The difference is: " + answer);
+        }
+        else  {
+            System.out.println("Invalid selection...exiting program");
+        }
+
+
+
+
 
 
 
