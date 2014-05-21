@@ -10,22 +10,14 @@ import java.util.Scanner;
 class apples {
     public static void main(String args[]){
 
-          double tuna;
-        tuna = 5.8;
-
-        int x = 5    ;
-
-
-
-
-
-        System.out.println(x);
-
-
-//        Scanner keyboard = new Scanner(System.in);
-//
-//        System.out.println("Enter something already..");
-//        System.out.println(keyboard.nextLine());
+        Scanner bucky = new Scanner(System.in);
+        double fnum, snum, answer;
+        System.out.println("Enter first num: ");
+        fnum = bucky.nextDouble();
+        System.out.println("Enter second num: ");
+        snum = bucky.nextDouble();
+        answer = fnum + snum;
+        System.out.println("The sum is: " + answer);
 
 
 
