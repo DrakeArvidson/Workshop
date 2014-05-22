@@ -36,8 +36,4 @@ public class GreatestCommonDivisor {
 
         System.out.println("The greatest common divisor for " + n1 + " and " + n2 + " is " + gcd);
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 }
