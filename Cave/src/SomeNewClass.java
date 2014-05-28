@@ -11,6 +11,12 @@
  */
 public class SomeNewClass {
 
+    /**
+     * @args command line arguments
+     */
+    public static void main(String[] args) {
+
+    }
 
 
 }
