@@ -18,6 +18,7 @@ public class Bucky {
             list2.add(y);
 
 
+
         for(int i = 0; i < list1.size(); i++) {
             System.out.printf("%s ", list1.get(i));
         }
