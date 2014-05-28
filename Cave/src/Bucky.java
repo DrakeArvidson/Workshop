@@ -11,6 +11,7 @@ public class Bucky {
 
         String[] morethings = {"lasers", "hats"};
 
+
         List<String> list2 = new ArrayList<String>();
 
         //add array items to list
