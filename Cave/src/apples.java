@@ -10,29 +10,16 @@ import java.util.Scanner;
 class apples {
     public static void main(String args[]){
 
-        Scanner bucky = new Scanner(System.in);
-        double fnum, snum, answer;
-        System.out.println("Enter first num: ");
-        fnum = bucky.nextDouble();
-        System.out.println("Enter second num: ");
-        snum = bucky.nextDouble();
+        int boy, girl;
+        boy = 11;
+        girl = 99;
 
-        System.out.println("Would you like to add or subtract?");
-        System.out.println("Enter 1 for add, 2 for subtract and press enter.");
-        int choice = bucky.nextInt();
-
-        if (choice == 1) {
-            answer = fnum + snum;
-            System.out.println("The sum is: " + answer);
+        if ((boy > 10) || (girl < 60)) {
+            System.out.println("You can enter");
         }
-        else if (choice == 2) {
-            answer = fnum - snum;
-            System.out.println("The difference is: " + answer);
+        else {
+            System.out.println("You cannot enter");
         }
-        else  {
-            System.out.println("Invalid selection...exiting program");
-        }
-
 
 
 
