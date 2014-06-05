@@ -6,6 +6,13 @@ public class Fly {
         PrintAwesome();
         Wicked();
         PrintAwesome();
+
+        System.out.println("Now we start a for loop");
+
+        for (int i = 0; i < 5; i++) {
+            Wicked();
+            PrintAwesome();
+        }
     }
 
     public static void PrintAwesome () {
