@@ -13,6 +13,8 @@ public class Fly {
             Wicked();
             PrintAwesome();
         }
+
+        // enchanced for loop here
     }
 
     public static void PrintAwesome () {
