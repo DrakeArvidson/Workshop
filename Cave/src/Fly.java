@@ -6,13 +6,6 @@ public class Fly {
         PrintAwesome();
         Wicked();
         PrintAwesome();
-
-
-
-
-
-
-
     }
 
     public static void PrintAwesome () {
