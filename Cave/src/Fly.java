@@ -14,7 +14,8 @@ public class Fly {
             PrintAwesome();
         }
 
-        // enchanced for loop here
+        // enhanced for loop here
+
     }
 
     public static void PrintAwesome () {
