@@ -1,8 +1,5 @@
 import java.util.Scanner;
 
-/**
- * @author blarson
- */
 public class Adder {
 
 
