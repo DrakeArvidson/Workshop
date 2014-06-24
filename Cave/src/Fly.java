@@ -7,12 +7,10 @@ public class Fly {
         Wicked();
         PrintAwesome();
 
-        System.out.println("Now we start a for loop");
+        System.out.println("\nNow we start a for loop");
 
-        for (int i = 0; i < 5; i++) {
-            Wicked();
-            PrintAwesome();
-        }
+        LoopPrint(3);
+
 
         // enhanced for loop here
         // change
@@ -27,6 +25,12 @@ public class Fly {
 
     public static void Wicked () {
         System.out.println("This is wicked!!!");
+    }
+    public static void LoopPrint(int x) {
+        for (int i = 0; i < x; i++) {
+            Wicked();
+            PrintAwesome();
+        }
     }
 
 
