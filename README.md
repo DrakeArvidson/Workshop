@@ -1,7 +1,7 @@
 Workshop
 ========
 
-learning and playing with Java
+this repo is for my learning and playing with Java
 
 
 Cave is for my sandbox for playing and making small programs for fun and learning.
