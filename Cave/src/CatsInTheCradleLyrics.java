@@ -11,29 +11,27 @@
  * http://www.azlyrics.com/lyrics/harrychapin/catsinthecradle.html
  */
 public class CatsInTheCradleLyrics {
-    public static void main (String [] args) {
+    public static void singEntireSong () {
         for (int i = 1; i < 9; i++) {
-            if (i%2 == 0) {
-                singRefrain();
-            }
-            else {
+            if (i % 2 == 0) {
+                CatsInTheCradleLyrics.singRefrain();
+            } else {
                 switch (i) {
                     case 1:
-                        singVerseChildArrive();
+                        CatsInTheCradleLyrics.singVerseChildArrive();
                         break;
                     case 3:
-                        singVerseTurned10();
+                        CatsInTheCradleLyrics.singVerseTurned10();
                         break;
                     case 5:
-                        singVerseCollege();
+                        CatsInTheCradleLyrics.singVerseCollege();
                         break;
                     case 7:
-                        singVerseRetired();
+                        CatsInTheCradleLyrics.singVerseRetired();
                         break;
                 }
             }
         }
-
     }
     public static void singRefrain () {
         System.out.println("And the cat's in the cradle and the silver spoon");
